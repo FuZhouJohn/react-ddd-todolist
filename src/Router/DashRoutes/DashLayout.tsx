@@ -14,7 +14,7 @@ export default function DashLayout(props: PropsWithChildren<{}>) {
                     onClick={(e) => {
                         history.push(`/dash/${e.key}`);
                     }}>
-                    <Menu.Item key='home'>首页-计数器</Menu.Item>
+                    <Menu.Item key='home'>首页</Menu.Item>
                     <Menu.Item key='test'>测试页面</Menu.Item>
                 </Menu>
             </Layout.Header>
